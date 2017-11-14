@@ -7,8 +7,6 @@ import {QueueServer} from "./QueueServer";
 import {Consumption} from "./Consumption";
 
 
-
-
 async function setApp(){
     await QueueServer.initDB();
 
